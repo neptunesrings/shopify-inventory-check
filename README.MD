@@ -1,0 +1,1 @@
+This small service exposes a GET /inventory-levels endpoint and a webhook POST /webhook/inventory-update. It uses Shopify REST and GraphQL APIs to check inventory by variant/location and automatically adds or removes the "stockfromretours" tag on products depending on stock at location ID ###. Configure credentials via .env (see .env.template).
